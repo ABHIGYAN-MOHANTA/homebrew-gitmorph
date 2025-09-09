@@ -2,7 +2,7 @@ class Gitmorph < Formula
   desc "Seamlessly switch between multiple Git identities with a Git wrapper"
   homepage "https://github.com/ABHIGYAN-MOHANTA/gitmorph"
   url "https://github.com/ABHIGYAN-MOHANTA/gitmorph/archive/refs/tags/v3.tar.gz"
-  sha256 "3b6828a258d20c478a5744095dc434b18dcbd4986ce9904ed930208a55b7fb88"
+  sha256 "5e67d45ec279e303137981fac12a94f5598d8bf828c6f09d3417a4e334ed6b2d"
   license "MIT"
 
   depends_on "go" => :build
