@@ -2,7 +2,7 @@ class Gitmorph < Formula
   desc "Switch between multiple Git profiles effortlessly 🚀"
   homepage "https://github.com/ABHIGYAN-MOHANTA/gitmorph"
   url "https://github.com/ABHIGYAN-MOHANTA/gitmorph/archive/refs/tags/v3.0.1.tar.gz"
-  sha256 "5e67d45ec279e303137981fac12a94f5598d8bf828c6f09d3417a4e334ed6b2d"
+  sha256 "f3619120d7e8af5adc120936798c27448df16ff5c2bb71d761078ff2e760fc01"
   license "MIT"
 
   depends_on "go" => :build
