@@ -3,22 +3,22 @@ cask "gitmorph" do
   name "gitmorph"
   desc ""
   homepage "https://github.com/abhigyan-mohanta/gitmorph"
-  version "3.1.8"
+  version "3.2.2"
 
   livecheck do
     skip "Auto-generated on release."
   end
 
-  binary "dist/gitmorph_darwin_all/gitmorph_3.1.8"
+  binary "dist/gitmorph_darwin_all/gitmorph_3.2.2"
 
   on_linux do
     on_intel do
       url "https://github.com/ABHIGYAN-MOHANTA/gitmorph/releases/download/v#{version}/gitmorph_#{version}_linux_amd64.tar.gz"
-      sha256 "54eaa7ae1ee3443f2ae3305d574dbff638a0db3b59e3d966f05d2b0424c71244"
+      sha256 "366af911785c2f9cfd7af51ce068c90e87159237afd994bb0acbf5e1fa701a2e"
     end
     on_arm do
       url "https://github.com/ABHIGYAN-MOHANTA/gitmorph/releases/download/v#{version}/gitmorph_#{version}_linux_arm64.tar.gz"
-      sha256 "ad38ca6ca703b942b2383888acc88ce52cb5ff9440eafe719c708b152e73363b"
+      sha256 "267b6c8015d66441916f653c13c04aae1a9345486f1ad7221eb395e47e2d6a93"
     end
   end
 
