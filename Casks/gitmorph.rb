@@ -3,7 +3,7 @@ cask "gitmorph" do
   name "gitmorph"
   desc ""
   homepage "https://github.com/abhigyan-mohanta/gitmorph"
-  version "3.2.6"
+  version "3.2.7"
 
   livecheck do
     skip "Auto-generated on release."
@@ -13,7 +13,7 @@ cask "gitmorph" do
 
   on_macos do
     url "https://github.com/ABHIGYAN-MOHANTA/gitmorph/releases/download/v#{version}/gitmorph_#{version}_darwin_all.tar.gz"
-    sha256 "f6b74b50aff5fd1c45e2ba00a4bd8b327cf891091aa134e4aafdd922a25a5480"
+    sha256 "8f2c2db76b2407b81391126fc950a0c4e8b7763960346972618f0ce6a947c126"
   end
 
   # No zap stanza required
